@@ -1,2 +1,4 @@
 # Product_Recom_2024
 A Product Recommendation System using Hybrid Filtering
+
+In this project, a hybrid recommender system is created by integrating content-based filtering, utilizing TF-IDF vectorization and cosine similarity to compute item similarity based on content attributes such as product name, brand, category, color, and size, and collaborative filtering, employing the SVD (Singular Value Decomposition) algorithm for matrix factorization to personalize recommendations based on user behavior and preferences. This hybrid system evaluates the precision, recall, and mean average precision (MAP) to measure the quality of the recommendations. By combining both techniques, the recommendation system leverages the strengths of both content-based and collaborative filtering to deliver accurate and relevant item suggestions, catering to individual user preferences and enhancing the overall user experience.
